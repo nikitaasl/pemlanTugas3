@@ -53,7 +53,7 @@ public class Main {
                     System.out.println("2. Tampilkan Detail Buku");
                     System.out.println("Pilih Opsi: ");
                     
-                    int opsi2;
+                    int opsi;
                     if(scanner.hasNextInt()){ //Memeriksai apakah input adalah angka
                         opsi = scanner.nextInt();
                         scanner.nextLine(); //Membersihkan buffer
